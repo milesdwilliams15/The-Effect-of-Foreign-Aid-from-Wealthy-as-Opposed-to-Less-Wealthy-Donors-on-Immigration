@@ -1,7 +1,7 @@
 
 
 
-path<-file.path("C:","Users","Miles","Documents","Thesis","thesis.csv")
+path<-file.path(...,"data.csv")
 immig<-read.csv(path)
 
 ## Estimate an OLS model
